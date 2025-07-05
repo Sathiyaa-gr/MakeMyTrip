@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MMT Parallel Suite">
+  <test thread-count="5" name="Parallel Test">
+    <classes>
+      <class name="AirlineTestPkge.TC4_OnewayPage"/>
+      <class name="AirlineTestPkge.TC2_Login2"/>
+      <class name="AirlineTestPkge.TC7_MutliCityPage"/>
+    </classes>
+  </test> <!-- Parallel Test -->
+</suite> <!-- MMT Parallel Suite -->

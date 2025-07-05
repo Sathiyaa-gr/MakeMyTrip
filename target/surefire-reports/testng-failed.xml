@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MMT Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AirlineTest(failed)" verbose="0">
+    <classes>
+      <class name="AirlineTestPkge.TC8_SeatSelection">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="browserquit"/>
+          <include name="TC8SeatSelection"/>
+        </methods>
+      </class> <!-- AirlineTestPkge.TC8_SeatSelection -->
+    </classes>
+  </test> <!-- AirlineTest(failed) -->
+</suite> <!-- Failed suite [MMT Suite] -->

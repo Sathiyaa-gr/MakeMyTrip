@@ -1,0 +1,63 @@
+package AirlineTestPkge;
+
+
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import AirlinePackage.AirelineDatepicker;
+import AirlinePackage.AirlineBookFlight;
+import AirlinePackage.AirlineHomePage;
+import AirlinePackage.AirlineMutliplePassanger;
+import AirlinePackage.AirlineOnewayPage;
+import AirlinePackage.AirlineSeatSelection;
+import AirlineUtil.IRetrylogic;
+import AirlineUtil.MyListener;
+
+//@Listeners(MyListener.class)
+public class TC8_SeatSelection extends BaseClass{
+		
+
+	@Test//(retryAnalyzer=IRetrylogic.class)
+    
+    
+    public void TC8SeatSelection() throws InterruptedException {
+    	AirlineHomePage home = new AirlineHomePage(driver);
+        home.close();
+                
+        AirlineOnewayPage oneway=new AirlineOnewayPage(driver);
+        oneway.OnewayTrip();
+        oneway.sourceCity("Bengaluru");
+        oneway.destinationCity("Chennai");
+        
+        AirelineDatepicker date=new AirelineDatepicker(driver);
+        date.selectTravelDate("26","August 2025");  
+        home.Search();
+        
+        AirlineBookFlight book=new AirlineBookFlight(driver);
+        book.Bookflight();
+       // book.Book2();
+        book.switchToNewWindow();
+      Thread.sleep(1000);
+      //  home.clickcontinue();
+        
+        AirlineMutliplePassanger pass=new AirlineMutliplePassanger(driver);
+        
+        pass.chk_adult();
+        
+        pass.adultDetails("Sathiyaa", "Anbarsan");
+        pass.mobile_Email();
+        
+       home.clickcontinue();
+       pass.clickconfirm();
+       
+       AirlineSeatSelection st=new AirlineSeatSelection(driver);
+       
+       //st.selectAvailableSeat();
+     
+        
+    }
+    
+
+   
+	
+}

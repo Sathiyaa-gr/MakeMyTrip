@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome browser launching]]>
+    </line>
+    <line>
+      <![CDATA[One way selecte]]>
+    </line>
+    <line>
+      <![CDATA[Source city: Bengaluru]]>
+    </line>
+    <line>
+      <![CDATA[Destination city: Chennai]]>
+    </line>
+    <line>
+      <![CDATA[switched to child window]]>
+    </line>
+    <line>
+      <![CDATA[Seat select & cliked Continue]]>
+    </line>
+    <line>
+      <![CDATA[Proceed btn clicked]]>
+    </line>
+    <line>
+      <![CDATA[Entered Card details]]>
+    </line>
+    <line>
+      <![CDATA[Billing Address]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-05T11:31:14 EDT" name="Default suite" finished-at="2025-07-05T11:32:35 EDT" duration-ms="80952">
+    <groups>
+    </groups>
+    <test started-at="2025-07-05T11:31:14 EDT" name="Default test" finished-at="2025-07-05T11:32:35 EDT" duration-ms="80952">
+      <class name="AirlineTestPkge.TC15_PaymentPage">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@22fcf7ab]" started-at="2025-07-05T11:31:14 EDT" name="browserlaunch" finished-at="2025-07-05T11:31:18 EDT" duration-ms="4655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser launching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="PaymentPage()[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@22fcf7ab]" started-at="2025-07-05T11:31:18 EDT" name="PaymentPage" finished-at="2025-07-05T11:32:35 EDT" duration-ms="76247" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[One way selecte]]>
+            </line>
+            <line>
+              <![CDATA[Source city: Bengaluru]]>
+            </line>
+            <line>
+              <![CDATA[Destination city: Chennai]]>
+            </line>
+            <line>
+              <![CDATA[switched to child window]]>
+            </line>
+            <line>
+              <![CDATA[Seat select & cliked Continue]]>
+            </line>
+            <line>
+              <![CDATA[Proceed btn clicked]]>
+            </line>
+            <line>
+              <![CDATA[Entered Card details]]>
+            </line>
+            <line>
+              <![CDATA[Billing Address]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PaymentPage -->
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@22fcf7ab]" started-at="2025-07-05T11:32:35 EDT" name="browserquit" finished-at="2025-07-05T11:32:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquit -->
+      </class> <!-- AirlineTestPkge.TC15_PaymentPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
