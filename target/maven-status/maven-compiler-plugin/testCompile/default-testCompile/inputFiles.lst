@@ -1,6 +1,9 @@
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineValidateFlightInfo.java
+C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\SeatSelectionPage.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlinePromoCodes.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\DatePicker.java
+C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineBillingAddress.java
+C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineTestPkge\TC8_SeatSelection_test2.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineLogout.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineMutliplePassanger.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirelineDatepicker.java
@@ -21,12 +24,15 @@ C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineTestPkge\T
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineBookFlight.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineLoginPage.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineMutlicityPage.java
+C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlinePaymentPage.java
+C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\SeatSelectionPage2.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineTestPkge\TC2_ValidLogin.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineOnewayPage.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineRoundTripPage.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineTestPkge\BaseClass.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineUtil\DataFetching.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineUtil\IRetrylogic.java
+C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\SeatSelectionPage3.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineTestPkge\TC15_PaymentPage.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlineTestPkge\TC10_ValidateFlightInformation.java
 C:\Users\anbuj\eclipse-workspace\AirlineProject2\src\test\java\AirlinePackage\AirlineSeatSelection.java

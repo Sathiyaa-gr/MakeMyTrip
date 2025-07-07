@@ -17,7 +17,7 @@ public class TC5_RoundTripPage extends BaseClass{
 		
 
 	@Test(retryAnalyzer=IRetrylogic.class)
-    public void RoundTripPage() throws InterruptedException {
+    public void TC5RoundTripPage() throws InterruptedException {
     	AirlineHomePage home = new AirlineHomePage(driver);
         home.close();
         

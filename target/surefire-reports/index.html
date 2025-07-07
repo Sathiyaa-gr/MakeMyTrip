@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MMT_Suite" class="navigator-link">
-              <span class="suite-name border-failed">MMT Suite</span>
+              <span class="suite-name border-passed">MMT Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-MMT_Suite" class="hide-methods failed suite-MMT_Suite"> (hide)</a> <!-- hide-methods failed suite-MMT_Suite -->
-                      <a href="#" panel-name="suite-MMT_Suite" class="show-methods failed suite-MMT_Suite"> (show)</a> <!-- show-methods failed suite-MMT_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-MMT_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MMT_Suite" title="AirlineTestPkge.TC8_SeatSelection" class="method navigator-link" hash-for-method="TC8SeatSelection">TC8SeatSelection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-MMT_Suite -->
+                    <span class="method-stats">14 methods,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MMT_Suite" title="AirlineTestPkge.TC14_DomesticRoundTrip" class="method navigator-link" hash-for-method="DomesticRoundTripPage">DomesticRoundTripPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MMT_Suite" title="AirlineTestPkge.TC15_PaymentPage" class="method navigator-link" hash-for-method="PaymentPage">PaymentPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,6 +158,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MMT_Suite" title="AirlineTestPkge.TC8_SeatSelection_test2" class="method navigator-link" hash-for-method="TC8SeatSelection">TC8SeatSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MMT_Suite" title="AirlineTestPkge.TC9_PassangerMultiplePage2" class="method navigator-link" hash-for-method="TC9MultPassngSigleBooking">TC9MultPassngSigleBooking</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -187,10 +183,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MMT_Suite" class="panel MMT_Suite">
-          <div class="suite-MMT_Suite-class-failed">
+          <div class="suite-MMT_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">AirlineTestPkge.TC8_SeatSelection</span>
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC8_SeatSelection_test2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -198,46 +194,6 @@
                   <a name="TC8SeatSelection">
                   </a> <!-- TC8SeatSelection -->
                   <span class="method-name">TC8SeatSelection</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=137.0.7151.122)
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c1e01e392343ac4c9f1b759ec5c7a47, sendKeysToElement {id=f.A533B01BF6C2E17C60116AADD95B0A60.d.ECC14B5A39B1EA7F94806B7F7AF990B2.e.401, value=[Ljava.lang.CharSequence;@4cc7e3ad}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\anbuj\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60521/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (3c1e01e392343ac4c9f1b759ec5c7a47)] -&gt; xpath: //span[normalize-space()=&apos;Seats&apos;]]
-Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
-	at AirlinePackage.AirlineSeatSelection.seat(AirlineSeatSelection.java:43)
-	at AirlineTestPkge.TC8_SeatSelection.TC8SeatSelection(TC8_SeatSelection.java:56)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MMT_Suite-class-failed -->
-          <div class="suite-MMT_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AirlineTestPkge.TC9_PassangerMultiplePage2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC9MultPassngSigleBooking">
-                  </a> <!-- TC9MultPassngSigleBooking -->
-                  <span class="method-name">TC9MultPassngSigleBooking</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -260,21 +216,6 @@ Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
           <div class="suite-MMT_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AirlineTestPkge.TC12_LoginLogout</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC12LoginLogout">
-                  </a> <!-- TC12LoginLogout -->
-                  <span class="method-name">TC12LoginLogout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MMT_Suite-class-passed -->
-          <div class="suite-MMT_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">AirlineTestPkge.TC5_RoundTripPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -283,36 +224,6 @@ Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
                   <a name="RoundTripPage">
                   </a> <!-- RoundTripPage -->
                   <span class="method-name">RoundTripPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MMT_Suite-class-passed -->
-          <div class="suite-MMT_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AirlineTestPkge.TC11_validateafterBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC11validateAfterBook">
-                  </a> <!-- TC11validateAfterBook -->
-                  <span class="method-name">TC11validateAfterBook</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MMT_Suite-class-passed -->
-          <div class="suite-MMT_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AirlineTestPkge.TC14_DomesticRoundTrip</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DomesticRoundTripPage">
-                  </a> <!-- DomesticRoundTripPage -->
-                  <span class="method-name">DomesticRoundTripPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,6 +254,96 @@ Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
                   <a name="TC13ApplyPromo">
                   </a> <!-- TC13ApplyPromo -->
                   <span class="method-name">TC13ApplyPromo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_Suite-class-passed -->
+          <div class="suite-MMT_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC4_OnewayPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4OnewayPage">
+                  </a> <!-- TC4OnewayPage -->
+                  <span class="method-name">TC4OnewayPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_Suite-class-passed -->
+          <div class="suite-MMT_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC15_PaymentPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaymentPage">
+                  </a> <!-- PaymentPage -->
+                  <span class="method-name">PaymentPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_Suite-class-passed -->
+          <div class="suite-MMT_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC12_LoginLogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12LoginLogout">
+                  </a> <!-- TC12LoginLogout -->
+                  <span class="method-name">TC12LoginLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_Suite-class-passed -->
+          <div class="suite-MMT_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC9_PassangerMultiplePage2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9MultPassngSigleBooking">
+                  </a> <!-- TC9MultPassngSigleBooking -->
+                  <span class="method-name">TC9MultPassngSigleBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_Suite-class-passed -->
+          <div class="suite-MMT_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC11_validateafterBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11validateAfterBook">
+                  </a> <!-- TC11validateAfterBook -->
+                  <span class="method-name">TC11validateAfterBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MMT_Suite-class-passed -->
+          <div class="suite-MMT_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AirlineTestPkge.TC14_DomesticRoundTrip</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DomesticRoundTripPage">
+                  </a> <!-- DomesticRoundTripPage -->
+                  <span class="method-name">DomesticRoundTripPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -393,21 +394,6 @@ Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-MMT_Suite-class-passed -->
-          <div class="suite-MMT_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AirlineTestPkge.TC4_OnewayPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TC4OnewayPage">
-                  </a> <!-- TC4OnewayPage -->
-                  <span class="method-name">TC4OnewayPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MMT_Suite-class-passed -->
         </div> <!-- panel MMT_Suite -->
         <div panel-name="test-xml-MMT_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -426,13 +412,14 @@ Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
       &lt;class name=&quot;AirlineTestPkge.TC5_RoundTripPage&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC6_TravelClassPage&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC7_MutliCityPage&quot;/&gt;
-      &lt;class name=&quot;AirlineTestPkge.TC8_SeatSelection&quot;/&gt;
+      &lt;class name=&quot;AirlineTestPkge.TC8_SeatSelection_test2&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC9_PassangerMultiplePage2&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC10_ValidateFlightInformation&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC11_validateafterBooking&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC12_LoginLogout&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC13_ApplyPromo&quot;/&gt;
       &lt;class name=&quot;AirlineTestPkge.TC14_DomesticRoundTrip&quot;/&gt;
+      &lt;class name=&quot;AirlineTestPkge.TC15_PaymentPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- AirlineTest --&gt;
 &lt;/suite&gt; &lt;!-- MMT Suite --&gt;
@@ -446,7 +433,7 @@ Session ID: 3c1e01e392343ac4c9f1b759ec5c7a47
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">AirlineTest (13 classes)</span>
+                <span class="test-name">AirlineTest (14 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -472,64 +459,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC8SeatSelection')
-data.setCell(0, 2, 'AirlineTestPkge.TC8_SeatSelection')
-data.setCell(0, 3, 27256);
+data.setCell(0, 1, 'PaymentPage')
+data.setCell(0, 2, 'AirlineTestPkge.TC15_PaymentPage')
+data.setCell(0, 3, 73146);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC12LoginLogout')
-data.setCell(1, 2, 'AirlineTestPkge.TC12_LoginLogout')
-data.setCell(1, 3, 23632);
+data.setCell(1, 1, 'TC8SeatSelection')
+data.setCell(1, 2, 'AirlineTestPkge.TC8_SeatSelection_test2')
+data.setCell(1, 3, 65259);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC13ApplyPromo')
-data.setCell(2, 2, 'AirlineTestPkge.TC13_ApplyPromo')
-data.setCell(2, 3, 22727);
+data.setCell(2, 1, 'TC12LoginLogout')
+data.setCell(2, 2, 'AirlineTestPkge.TC12_LoginLogout')
+data.setCell(2, 3, 25391);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'TC11validateAfterBook')
 data.setCell(3, 2, 'AirlineTestPkge.TC11_validateafterBooking')
-data.setCell(3, 3, 20503);
+data.setCell(3, 3, 24376);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TC10ValidateFlightInformation')
 data.setCell(4, 2, 'AirlineTestPkge.TC10_ValidateFlightInformation')
-data.setCell(4, 3, 19646);
+data.setCell(4, 3, 23921);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC7MutliCityPage')
-data.setCell(5, 2, 'AirlineTestPkge.TC7_MutliCityPage')
-data.setCell(5, 3, 16311);
+data.setCell(5, 1, 'TC13ApplyPromo')
+data.setCell(5, 2, 'AirlineTestPkge.TC13_ApplyPromo')
+data.setCell(5, 3, 22364);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'TC6TravelClassPage')
-data.setCell(6, 2, 'AirlineTestPkge.TC6_TravelClassPage')
-data.setCell(6, 3, 13742);
+data.setCell(6, 1, 'TC7MutliCityPage')
+data.setCell(6, 2, 'AirlineTestPkge.TC7_MutliCityPage')
+data.setCell(6, 3, 16728);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'RoundTripPage')
-data.setCell(7, 2, 'AirlineTestPkge.TC5_RoundTripPage')
-data.setCell(7, 3, 11343);
+data.setCell(7, 1, 'TC6TravelClassPage')
+data.setCell(7, 2, 'AirlineTestPkge.TC6_TravelClassPage')
+data.setCell(7, 3, 12611);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'DomesticRoundTripPage')
 data.setCell(8, 2, 'AirlineTestPkge.TC14_DomesticRoundTrip')
-data.setCell(8, 3, 11034);
+data.setCell(8, 3, 11626);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'TC2_LoginwithvalidCred')
-data.setCell(9, 2, 'AirlineTestPkge.TC2_Login2')
-data.setCell(9, 3, 9872);
+data.setCell(9, 1, 'RoundTripPage')
+data.setCell(9, 2, 'AirlineTestPkge.TC5_RoundTripPage')
+data.setCell(9, 3, 11329);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'TC9MultPassngSigleBooking')
-data.setCell(10, 2, 'AirlineTestPkge.TC9_PassangerMultiplePage2')
-data.setCell(10, 3, 9300);
+data.setCell(10, 1, 'TC4OnewayPage')
+data.setCell(10, 2, 'AirlineTestPkge.TC4_OnewayPage')
+data.setCell(10, 3, 11158);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'TC4OnewayPage')
-data.setCell(11, 2, 'AirlineTestPkge.TC4_OnewayPage')
-data.setCell(11, 3, 9110);
+data.setCell(11, 1, 'TC9MultPassngSigleBooking')
+data.setCell(11, 2, 'AirlineTestPkge.TC9_PassangerMultiplePage2')
+data.setCell(11, 3, 10617);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testAirlineLoginPage2')
-data.setCell(12, 2, 'AirlineTestPkge.TC3_InvalidLoginPage')
-data.setCell(12, 3, 2832);
+data.setCell(12, 1, 'TC2_LoginwithvalidCred')
+data.setCell(12, 2, 'AirlineTestPkge.TC2_Login2')
+data.setCell(12, 3, 9991);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testAirlineLoginPage2')
+data.setCell(13, 2, 'AirlineTestPkge.TC3_InvalidLoginPage')
+data.setCell(13, 3, 3550);
 window.suiteTableData['MMT_Suite']= { tableData: data, tableDiv: 'times-div-MMT_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-MMT_Suite">
               </div> <!-- times-div-MMT_Suite -->
             </div> <!-- times-div -->
@@ -541,48 +532,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TC7MutliCityPage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">MutliCity Select</span>
-                <span class="reporter-method-output">First Source to Destination city Chennai toDubai</span>
-                <span class="reporter-method-output">Second Source to Destination city Dubai toChennai</span>
-                <span class="reporter-method-output">Listener:Test is Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">DomesticRoundTripPage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Round trip is selected</span>
-                <span class="reporter-method-output">Source city: Chennai</span>
-                <span class="reporter-method-output">Destination city: Mumbai</span>
-                <span class="reporter-method-output">Listener:Test is Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">TC2_LoginwithvalidCred</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Successfully logged in Hi Sathiyaa</span>
-                <span class="reporter-method-output">Listener:Test is Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">RoundTripPage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Round trip is selected</span>
-                <span class="reporter-method-output">Source city: Chennai</span>
-                <span class="reporter-method-output">Destination city: Dubai</span>
-                <span class="reporter-method-output">Listener:Test is Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">TC12LoginLogout</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Listener:Test is Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testAirlineLoginPage2(437366122, Jasnu@1223)</span>
-              <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Listener:Test is Pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -599,16 +551,6 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TC11validateAfterBook</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">One way selecte</span>
-                <span class="reporter-method-output">Source city: Dubai</span>
-                <span class="reporter-method-output">Destination city: Chennai</span>
-                <span class="reporter-method-output">switched to child window</span>
-                <span class="reporter-method-output">Listener:Test is Pass</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">TC13ApplyPromo</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">One way selecte</span>
@@ -620,12 +562,47 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TC9MultPassngSigleBooking</span>
+              <span class="reporter-method-name">TC4OnewayPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">One way selecte</span>
+                <span class="reporter-method-output">Source city: Dubai</span>
+                <span class="reporter-method-output">Destination city: Chennai</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC7MutliCityPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">MutliCity Select</span>
+                <span class="reporter-method-output">First Source to Destination city Chennai toDubai</span>
+                <span class="reporter-method-output">Second Source to Destination city Dubai toChennai</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testAirlineLoginPage2(437366122, Jasnu@1223)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">RoundTripPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Round trip is selected</span>
+                <span class="reporter-method-output">Source city: Chennai</span>
+                <span class="reporter-method-output">Destination city: Dubai</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC8SeatSelection</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">One way selecte</span>
                 <span class="reporter-method-output">Source city: Chennai</span>
                 <span class="reporter-method-output">Destination city: Mumbai</span>
-                <span class="reporter-method-output">2Passanger selected</span>
+                <span class="reporter-method-output">switched to child window</span>
+                <span class="reporter-method-output">Seat select & cliked Continue</span>
+                <span class="reporter-method-output">Proceed btn clicked</span>
                 <span class="reporter-method-output">Listener:Test is Pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -641,22 +618,53 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TC4OnewayPage</span>
+              <span class="reporter-method-name">TC9MultPassngSigleBooking</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">One way selecte</span>
-                <span class="reporter-method-output">Source city: Dubai</span>
-                <span class="reporter-method-output">Destination city: Chennai</span>
+                <span class="reporter-method-output">Source city: Chennai</span>
+                <span class="reporter-method-output">Destination city: Mumbai</span>
+                <span class="reporter-method-output">2Passanger selected</span>
                 <span class="reporter-method-output">Listener:Test is Pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TC8SeatSelection</span>
+              <span class="reporter-method-name">TC12LoginLogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully logged in Hi Sathiyaa</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DomesticRoundTripPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Round trip is selected</span>
+                <span class="reporter-method-output">Source city: Chennai</span>
+                <span class="reporter-method-output">Destination city: Mumbai</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">PaymentPage</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">One way selecte</span>
-                <span class="reporter-method-output">Source city: Bengaluru</span>
+                <span class="reporter-method-output">Source city: Chennai</span>
+                <span class="reporter-method-output">Destination city: Mumbai</span>
+                <span class="reporter-method-output">switched to child window</span>
+                <span class="reporter-method-output">Seat select & cliked Continue</span>
+                <span class="reporter-method-output">Proceed btn clicked</span>
+                <span class="reporter-method-output">Entered Card details</span>
+                <span class="reporter-method-output">Billing Address</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC11validateAfterBook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">One way selecte</span>
+                <span class="reporter-method-output">Source city: Dubai</span>
                 <span class="reporter-method-output">Destination city: Chennai</span>
                 <span class="reporter-method-output">switched to child window</span>
-                <span class="reporter-method-output">Listener:Test is Fail</span>
+                <span class="reporter-method-output">Listener:Test is Pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -681,193 +689,206 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC2_LoginwithvalidCred</span>
-                <span class="method-start">5759 ms</span>
+                <span class="method-start">3722 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">16080 ms</span>
+                <span class="method-start">14103 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC3_InvalidLoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">18349 ms</span>
+                <span class="method-start">15854 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAirlineLoginPage2(437366122, Jasnu@1223)</span>
-                <span class="method-start">22205 ms</span>
+                <span class="method-start">19469 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">25341 ms</span>
+                <span class="method-start">23373 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC4_OnewayPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">25848 ms</span>
+                <span class="method-start">23373 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC4OnewayPage</span>
-                <span class="method-start">30647 ms</span>
+                <span class="method-start">27175 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">40007 ms</span>
+                <span class="method-start">38626 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC5_RoundTripPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">40467 ms</span>
+                <span class="method-start">38629 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RoundTripPage</span>
-                <span class="method-start">44951 ms</span>
+                <span class="method-start">42262 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">56558 ms</span>
+                <span class="method-start">53976 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC6_TravelClassPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">57001 ms</span>
+                <span class="method-start">53976 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC6TravelClassPage</span>
-                <span class="method-start">60863 ms</span>
+                <span class="method-start">57646 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">74979 ms</span>
+                <span class="method-start">70593 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC7_MutliCityPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">75512 ms</span>
+                <span class="method-start">70593 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC7MutliCityPage</span>
-                <span class="method-start">79647 ms</span>
+                <span class="method-start">74059 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">96227 ms</span>
+                <span class="method-start">91220 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">AirlineTestPkge.TC8_SeatSelection</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AirlineTestPkge.TC8_SeatSelection_test2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">96711 ms</span>
+                <span class="method-start">91221 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TC8SeatSelection</span>
-                <span class="method-start">101404 ms</span>
+                <span class="method-start">95031 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">128827 ms</span>
+                <span class="method-start">160514 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC9_PassangerMultiplePage2</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">129233 ms</span>
+                <span class="method-start">160514 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC9MultPassngSigleBooking</span>
-                <span class="method-start">133570 ms</span>
+                <span class="method-start">164465 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">143133 ms</span>
+                <span class="method-start">175317 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC10_ValidateFlightInformation</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">143606 ms</span>
+                <span class="method-start">175319 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC10ValidateFlightInformation</span>
-                <span class="method-start">147797 ms</span>
+                <span class="method-start">180255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">167655 ms</span>
+                <span class="method-start">204467 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC11_validateafterBooking</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">168155 ms</span>
+                <span class="method-start">204474 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC11validateAfterBook</span>
-                <span class="method-start">172699 ms</span>
+                <span class="method-start">208999 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">193425 ms</span>
+                <span class="method-start">233587 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC12_LoginLogout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">193995 ms</span>
+                <span class="method-start">233595 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC12LoginLogout</span>
-                <span class="method-start">204294 ms</span>
+                <span class="method-start">237741 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">228290 ms</span>
+                <span class="method-start">263489 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC13_ApplyPromo</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">228823 ms</span>
+                <span class="method-start">263489 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC13ApplyPromo</span>
-                <span class="method-start">233713 ms</span>
+                <span class="method-start">267861 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">256687 ms</span>
+                <span class="method-start">290465 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AirlineTestPkge.TC14_DomesticRoundTrip</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">browserlaunch(Chrome)</span>
-                <span class="method-start">257087 ms</span>
+                <span class="method-start">290468 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DomesticRoundTripPage</span>
-                <span class="method-start">261725 ms</span>
+                <span class="method-start">295982 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserquit</span>
-                <span class="method-start">273130 ms</span>
+                <span class="method-start">307857 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AirlineTestPkge.TC15_PaymentPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserlaunch(Chrome)</span>
+                <span class="method-start">307865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PaymentPage</span>
+                <span class="method-start">311658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserquit</span>
+                <span class="method-start">385014 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

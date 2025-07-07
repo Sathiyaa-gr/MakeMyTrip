@@ -10,13 +10,14 @@
       <class name="AirlineTestPkge.TC5_RoundTripPage"/>
       <class name="AirlineTestPkge.TC6_TravelClassPage"/>
       <class name="AirlineTestPkge.TC7_MutliCityPage"/>
-      <class name="AirlineTestPkge.TC8_SeatSelection"/>
+      <class name="AirlineTestPkge.TC8_SeatSelection_test2"/>
       <class name="AirlineTestPkge.TC9_PassangerMultiplePage2"/>
       <class name="AirlineTestPkge.TC10_ValidateFlightInformation"/>
       <class name="AirlineTestPkge.TC11_validateafterBooking"/>
       <class name="AirlineTestPkge.TC12_LoginLogout"/>
       <class name="AirlineTestPkge.TC13_ApplyPromo"/>
       <class name="AirlineTestPkge.TC14_DomesticRoundTrip"/>
+      <class name="AirlineTestPkge.TC15_PaymentPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

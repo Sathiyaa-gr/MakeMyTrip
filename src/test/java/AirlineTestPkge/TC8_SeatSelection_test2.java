@@ -16,7 +16,7 @@ import AirlinePackage.SeatSelectionPage3;
 import AirlineUtil.IRetrylogic;
 import AirlineUtil.MyListener;
 
-//@Listeners(MyListener.class)
+@Listeners(MyListener.class)
 public class TC8_SeatSelection_test2 extends BaseClass{
 		
 
@@ -29,8 +29,8 @@ public class TC8_SeatSelection_test2 extends BaseClass{
                 
         AirlineOnewayPage oneway=new AirlineOnewayPage(driver);
         oneway.OnewayTrip();
-        oneway.sourceCity("Bengaluru");
-        oneway.destinationCity("Chennai");
+        oneway.sourceCity("Chennai");
+        oneway.destinationCity("Mumbai");
         
         AirelineDatepicker date=new AirelineDatepicker(driver);
         date.selectTravelDate("26","August 2025");  

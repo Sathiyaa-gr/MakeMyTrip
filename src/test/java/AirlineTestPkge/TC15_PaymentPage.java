@@ -22,14 +22,14 @@ public class TC15_PaymentPage extends BaseClass{
 
 	@Test(retryAnalyzer=IRetrylogic.class)
      
-    public void PaymentPage() throws InterruptedException {
+    public void TC15PaymentPage() throws InterruptedException {
     	AirlineHomePage home = new AirlineHomePage(driver);
         home.close();
                 
         AirlineOnewayPage oneway=new AirlineOnewayPage(driver);
         oneway.OnewayTrip();
-        oneway.sourceCity("Bengaluru");
-        oneway.destinationCity("Chennai");
+        oneway.sourceCity("Chennai");
+        oneway.destinationCity("Mumbai");
         
         AirelineDatepicker date=new AirelineDatepicker(driver);
         date.selectTravelDate("26","August 2025");  

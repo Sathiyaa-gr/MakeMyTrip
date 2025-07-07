@@ -50,7 +50,7 @@ public class AirlineOnewayPage {
 		sourceCity.click();
 		wait.until(ExpectedConditions.elementToBeClickable(sourceInput)).click();;
 		sourceInput.sendKeys(src);
-		//Thread.sleep(1000);
+		Thread.sleep(2000);
 		sourceInput.sendKeys(Keys.ARROW_DOWN);
         sourceInput.sendKeys(Keys.ENTER);
         Reporter.log("Source city: "+src);	

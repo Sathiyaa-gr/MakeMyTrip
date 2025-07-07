@@ -12,7 +12,7 @@ public class TC3_InvalidLoginPage extends BaseClass{
 	
 
 	@Test(retryAnalyzer=IRetrylogic.class,dataProvider="logindata",dataProviderClass=AirlineUtil.DataFetching.class)
-	    public void testAirlineLoginPage2(String mobile, String pwd ) throws InterruptedException {
+	    public void TC3InvalidLoginPage(String mobile, String pwd ) throws InterruptedException {
 	    	
 	    	
 		  AirlineInvalidLogin login = new AirlineInvalidLogin(driver);

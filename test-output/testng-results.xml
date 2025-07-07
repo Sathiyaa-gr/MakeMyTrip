@@ -8,10 +8,10 @@
       <![CDATA[One way selecte]]>
     </line>
     <line>
-      <![CDATA[Source city: Bengaluru]]>
+      <![CDATA[Source city: Chennai]]>
     </line>
     <line>
-      <![CDATA[Destination city: Chennai]]>
+      <![CDATA[Destination city: Mumbai]]>
     </line>
     <line>
       <![CDATA[switched to child window]]>
@@ -28,13 +28,16 @@
     <line>
       <![CDATA[Billing Address]]>
     </line>
+    <line>
+      <![CDATA[Listener:Test is Pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-07-05T11:31:14 EDT" name="Default suite" finished-at="2025-07-05T11:32:35 EDT" duration-ms="80952">
+  <suite started-at="2025-07-07T00:14:50 EDT" name="Default suite" finished-at="2025-07-07T00:16:06 EDT" duration-ms="76531">
     <groups>
     </groups>
-    <test started-at="2025-07-05T11:31:14 EDT" name="Default test" finished-at="2025-07-05T11:32:35 EDT" duration-ms="80952">
+    <test started-at="2025-07-07T00:14:50 EDT" name="Default test" finished-at="2025-07-07T00:16:06 EDT" duration-ms="76531">
       <class name="AirlineTestPkge.TC15_PaymentPage">
-        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@22fcf7ab]" started-at="2025-07-05T11:31:14 EDT" name="browserlaunch" finished-at="2025-07-05T11:31:18 EDT" duration-ms="4655" status="PASS">
+        <test-method is-config="true" signature="browserlaunch(java.lang.String)[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@c0c2f8d]" started-at="2025-07-07T00:14:50 EDT" name="browserlaunch" finished-at="2025-07-07T00:14:54 EDT" duration-ms="3753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,16 +51,16 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method signature="PaymentPage()[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@22fcf7ab]" started-at="2025-07-05T11:31:18 EDT" name="PaymentPage" finished-at="2025-07-05T11:32:35 EDT" duration-ms="76247" status="PASS">
+        <test-method signature="PaymentPage()[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@c0c2f8d]" started-at="2025-07-07T00:14:54 EDT" name="PaymentPage" finished-at="2025-07-07T00:16:06 EDT" duration-ms="72535" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[One way selecte]]>
             </line>
             <line>
-              <![CDATA[Source city: Bengaluru]]>
+              <![CDATA[Source city: Chennai]]>
             </line>
             <line>
-              <![CDATA[Destination city: Chennai]]>
+              <![CDATA[Destination city: Mumbai]]>
             </line>
             <line>
               <![CDATA[switched to child window]]>
@@ -74,9 +77,12 @@
             <line>
               <![CDATA[Billing Address]]>
             </line>
+            <line>
+              <![CDATA[Listener:Test is Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- PaymentPage -->
-        <test-method is-config="true" signature="browserquit()[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@22fcf7ab]" started-at="2025-07-05T11:32:35 EDT" name="browserquit" finished-at="2025-07-05T11:32:35 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserquit()[pri:0, instance:AirlineTestPkge.TC15_PaymentPage@c0c2f8d]" started-at="2025-07-07T00:16:06 EDT" name="browserquit" finished-at="2025-07-07T00:16:06 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserquit -->

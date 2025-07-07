@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AirlineTestPkge.TC15_PaymentPage">
+      <class name="AirlineTestPkge.TC8_SeatSelection_test2">
         <methods>
-          <include name="PaymentPage"/>
           <include name="browserlaunch"/>
+          <include name="TC8SeatSelection"/>
           <include name="browserquit"/>
         </methods>
-      </class> <!-- AirlineTestPkge.TC15_PaymentPage -->
+      </class> <!-- AirlineTestPkge.TC8_SeatSelection_test2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -17,7 +17,7 @@ public class TC14_DomesticRoundTrip extends BaseClass{
 		
 
 	@Test(retryAnalyzer=IRetrylogic.class)
-    public void DomesticRoundTripPage() throws InterruptedException {
+    public void TC14DomesticRoundTripPage() throws InterruptedException {
     	AirlineHomePage home = new AirlineHomePage(driver);
         home.close();
         
