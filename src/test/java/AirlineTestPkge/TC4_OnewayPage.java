@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import AirlinePackage.AirelineDatepicker;
 import AirlinePackage.AirlineHomePage;
+import AirlinePackage.AirlineLoginPage2;
 import AirlinePackage.AirlineOnewayPage;
 import AirlineUtil.IRetrylogic;
 import AirlineUtil.MyListener;
@@ -15,17 +16,11 @@ public class TC4_OnewayPage extends BaseClass{
 	
 	@Test(retryAnalyzer=IRetrylogic.class)
     public void TC4OnewayPage() throws InterruptedException {
-    	//AirlineHomePage home = new AirlineHomePage(driver);
-        //home.close();
-	AirlineLoginPage2 login = new AirlineLoginPage2(driver);
-    	
-    	login.enterMobile();
-    	login.enterCntryCode();
-    	login.loginviapwd();
-    	AirlineHomePage home=new AirlineHomePage(driver);
-    	home.verifylogin();    
-                
-        AirlineOnewayPage oneway=new AirlineOnewayPage(driver);
+		AirlineHomePage home = new AirlineHomePage(driver);
+		home.close();
+		    
+       
+    	AirlineOnewayPage oneway=new AirlineOnewayPage(driver);
         oneway.OnewayTrip();
         oneway.sourceCity("Dubai");
         oneway.destinationCity("Chennai");
