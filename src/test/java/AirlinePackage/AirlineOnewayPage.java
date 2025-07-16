@@ -31,8 +31,8 @@ public class AirlineOnewayPage {
 	@FindBy(xpath="(//div[@class='DayPicker-Caption']/div)[1]")	WebElement currentmonth;
 	
 	@FindBy(xpath="//div[contains(@class,'DayPicker-Months')]//span[1]")	WebElement year;
-	@FindBy(xpath="//span[@aria-label='Next Month']")	WebElement nextMonth;
-	@FindBy(xpath="//span[@class='DayPicker-NavButton DayPicker-NavButton--prev']")	WebElement previousMonth;
+	@FindBy(xpath="//span[@aria-label='Next Month']/parent::div")	WebElement nextMonth;
+	@FindBy(xpath="//span[@aria-label='Previous Month']/parent::div")	WebElement previousMonth;
 	
 		
 	//step 2

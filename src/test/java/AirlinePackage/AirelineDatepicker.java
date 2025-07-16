@@ -22,8 +22,8 @@ public class AirelineDatepicker {
 	@FindBy(xpath="(//div[@class='DayPicker-Caption']/div)[1]")	WebElement Month;
 	
 	@FindBy(xpath="//div[contains(@class,'DayPicker-Months')]//span[1]")	WebElement year;
-	@FindBy(xpath="//span[@class='DayPicker-NavButton DayPicker-NavButton--next']")	WebElement nextMonth;
-	@FindBy(xpath="//span[@class='DayPicker-NavButton DayPicker-NavButton--prev']")	WebElement prevMonth;
+	@FindBy(xpath="//span[@aria-label='Next Month']/parent::div")	WebElement nextMonth;
+	@FindBy(xpath="//span[@aria-label='Previous Month']/parent::div")	WebElement prevMonth;
 	
 	
 
